@@ -1,0 +1,106 @@
+<?php 
+session_start()
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-commerce Cart</title>
+<link rel="icon" href="icons/icon.png" >  
+<link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Nos produits</h1>
+    <br>
+    <div class="product">
+        <img src="img2/f1.jpg">
+        <h3> Bouquet Florence</h3>
+        <div class="content">
+            <span>35.000dt</span>
+            <button onclick="addToCart(1, 'Bouquet Florence', 35.000)">Ajouter</button>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="img2/f2.jpg">
+        <h3>Bouquet Amman </h3>
+        <div class="content">
+            <span>32.000dt</span>
+            <button onclick="addToCart(2, 'Bouquet Amman', 32.000)">Ajouter</button>
+        </div>
+    </div>  
+
+<div class="product">
+    <img src="img2/f3.jpg">
+    <h3> Bouquet Padoue</h3>
+    <div class="content">
+    <span>50.000dt</span>
+    <button onclick="addToCart(3, 'Bouquet Padoue', 50.000)">Ajouter</button>
+    </div>
+</div>
+
+
+<div class="product">
+    <img src="img2/f4.jpg">
+    <h3>Bouquet Rome </h3>
+    <div class="content">
+    <span>38.000dt</span>
+    <button onclick="addToCart(4, 'Bouquet Rome' , 38.000)">Ajouter</button>
+    </div>
+</div>
+
+<div class="product">
+    <img src="img2/f5.jpg">
+    <h3>Bouquet Etretas </h3>
+    <div class="content">
+        <span>36.000dt</span>
+        <button onclick="addToCart(5, 'Bouquet Etretas', 36.000)">Ajouter</button>
+    </div>
+</div>
+
+<div class="product">
+    <img src="img2/f6.jpg">
+    <h3>Bouquet Oslo  </h3>
+    <div class="content">
+        <span>46.000dt</span>
+        <button onclick="addToCart(6, 'Bouquet Oslo' , 46.000)">Ajouter</button>
+    </div>
+</div>
+
+
+<div class="product">
+<img src="img2/f7.jpg">
+<h3>Bouquet Séville  </h3>
+<div class="content">
+        <span>56.000dt</span>
+        <button onclick="addToCart(7, 'Bouquet Séville'  , 56.000)">Ajouter</button>
+    </div>
+</div>
+
+<div class="product">
+<img src="img2/f8.jpg">
+<h3>Bouquet Paris</h3>
+<div class="content">
+        <span>62.000dt</span>
+        <button onclick=" addToCart(8, 'Bouquet Paris', 62.000) ">Ajouter</button>
+     </div>
+</div>
+
+<div class="cart">
+    <h2>Votre Panier</h2>
+    <ul id="cart-items">
+
+    </ul>
+    <p>Total: <span id="total">0.00dt</span></p>
+    <button onclick="window.location.href = 'http://localhost:3000/Paiement.html'">Payer</button>
+</div>
+
+<script src="admin.js"></script>
+
+
+</body>
+</html>

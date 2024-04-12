@@ -1,0 +1,204 @@
+body{
+    background-color: rgb(247, 237, 230);
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: rgb(148, 92, 118);
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    
+  }
+  h2{
+    color: rgb(242, 188, 213);
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  h3{
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  } 
+#registrationForm {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+  label {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.7); 
+    
+  }
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.7); 
+  }  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(148, 92, 118);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(148, 92, 118);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  button.button-link {
+    width: 100%;
+    padding: 10px; 
+    background-color: rgb(148, 92, 118);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease; 
+}
+
+.button-link:hover {
+    background-color: rgb(148, 92, 118); 
+}
+
+  button[type="submit"]:hover {
+    background-color: rgb(148, 92, 118);
+  }
+  header {
+    background-color: #fff0f9 ;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.toolbar h1 {
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: rgb(148, 92, 118) ; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+}
+
+.content p {
+    font-size: 16px;
+}
+.Logo{
+  width: 100px; }
+
+  .pro {
+    display: flex;
+    flex-direction: row;
+}
+
+.pro img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+    width: 600px; 
+}
+
+.pro .des {
+    display: flex;
+    flex-direction: column;
+}
+
+.pro h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.pro h4 {
+    font-size: 20px; 
+    margin-bottom: 10px;
+}
+
+.pro button {
+    background-color: rgb(148, 92, 118);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px; 
+    height: auto; 
+    max-width: 100%;
+    margin-bottom: 10px;
+}
